@@ -11,15 +11,27 @@
   <title>Trirat.p</title>
   <script>
     $(function () {
-      $(document).on('click', '.page1', () => {
-        console.log('test')
+      const sectionOne = document.getElementById('sectionOne')
+      sectionOne.addEventListener('click', (e) => {
+        console.log(e)
       })
     })
   </script>
 </head>
 
 <body>
-  <div class='page1'>test</div>
+  <div class='section-1' id='sectionOne'>บทที่ 1 บทบาทและความสำคัญของกำลังสำรอง</div>
+  <div classs='section-1-content'>
+    <h1>1.1 ประวัติความเป็นมา</h1>    
+    การพิจารณาว่าประเทศมีศักยภาพเพียงใด ให้พิจารณาจากอำนาจของประเทศนั้นซึ่งประกอบด้วย
+    <ul>
+      <li>อำนาจทางการเมือง</li>
+      <li>อำนาจเศรษฐกิจ</li>
+      <li>อำนาจสังคมจิตวิทยา</li>
+      <li>อำนาจทางวิทยาศาสตรและเทคโนโลยี</li>
+      <li>อำนาจทางการทหาร</li>
+    </ul>
+  </div>
 
 </body>
 
